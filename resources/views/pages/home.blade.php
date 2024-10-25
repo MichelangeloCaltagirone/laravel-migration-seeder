@@ -6,7 +6,7 @@
 @section("main-content")
 
 <h1>
-    Homepage
+    Trains
 </h1>
 
 @endsection
