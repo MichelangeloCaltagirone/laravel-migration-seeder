@@ -2,7 +2,7 @@
 
 namespace Database\Seeders;
 
-use App\Models\Passenger;
+use App\Models\Passanger;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -18,8 +18,8 @@ class PassangerSeeder extends Seeder
         ];
 
     foreach ($passengers as $passenger) {
-        $newpassenger = new Passenger();
-        $newpassenger->name = $passenger['name'];
+        $newpassenger = new Passanger();
+        $newpassenger->name = $passenger;
         $newpassenger->save();
     }
     }
